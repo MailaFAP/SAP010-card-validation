@@ -2,10 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validação de cartão de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="box" > 
+      <form class ="form" id="form">
+        <fieldset>
+          <legend>Pagamento com cartão de crédito</legend>
+          <br>
+          <div class="inputBox">
+            <input type="number" name="Nº do cartão" id="numeroCartao" class="inputUser" pattern="[0-9]" minLength="14" maxLength="16" required>
+            <label for="numeroCartao" class="labelInput">Nº do Cartão de crédito</label>
+          </div>
+          <br><br>
+          <div class="inputBox">
+            <input type="text" name="nome" id="nome" class="inputUser" required>
+            <label for="nome" class="labelInput">Nome no Cartão de crédito</label>
+          </div>
+          <br><br>
+          <div class="button">
+          <button onClick="validar" id="button">Confirmar</button>
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
+    
     <header></header>
     <main></main>
     <footer></footer>

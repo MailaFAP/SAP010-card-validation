@@ -90,10 +90,13 @@ No README, conte-nos como você pensou sobre os usuários e qual foi o seu
 processo para definir o produto final em nível de experiência e interface.
 Estas perguntas servem de guia:
 
-* Quem são os principais usuários do produto
+* Quem são os principais usuários do produto 
+  (Os principais usuários do meu produto são jovens entre 15 e 20 anos)
 * Quais são os objetivos desses usuários em relação ao seu produto
+  (uma comunicação comum entre sua faixa etária, de fácil compreensão e rápido desempenho)
 * Como você acha que o produto que você está criando está resolvendo seus
   problemas
+  (Acho que está ajudando a combater fraudes e acessibilidade para compras online de rápido processo e sem muita burocracia)
 
 Com esses requisitos atendidos, você pode agendar um feedback do projeto com
 um coach.
