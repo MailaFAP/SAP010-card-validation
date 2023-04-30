@@ -5,14 +5,14 @@
     <title>Validação de cartão de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body>    
     <div class="box" > 
+      <legend>Pagamento com cartão de crédito</legend>
+      <br>    
       <form class ="form" id="form">
-        <fieldset>
-          <legend>Pagamento com cartão de crédito</legend>
-          <br>
+        <fieldset>                 
           <div class="inputBox">
-            <input type="number" name="Nº do cartão" id="numeroCartao" class="inputUser" pattern="[0-9]" minLength="14" maxLength="16" required>
+            <input type="number" name="Nº do cartão" id="numberCard" class="inputUser" pattern="[0-9]" maxlength="16" required>
             <label for="numeroCartao" class="labelInput">Nº do Cartão de crédito</label>
           </div>
           <br><br>
@@ -22,11 +22,10 @@
           </div>
           <br><br>
           <div class="button">
-          <button onClick="validar" id="button">Confirmar</button>
+          <button id="button">Confirmar</button>
           </div>
         </fieldset>
       </form>
-
     </div>
     
     <header></header>
