@@ -12,18 +12,15 @@
       <form class ="form" id="form">
         <fieldset>                 
           <div class="inputBox">
-            <input type="text" name="Nº do cartão" id="numberCard" class="inputUser" pattern="[0-9]" maxlength="16" required>
+            <input type="text" name="Nº do cartão" id="numberCard" class="inputUser" pattern="[0-9#]*" title="Digite somente números" maxlength="16" required/>
             <input type="hidden" name="hidden" id="hidden"/>
             <label for="numeroCartao" class="labelInput">Nº do Cartão de crédito</label>
           </div>
           <br><br>
-          <div class="inputBox">
-            <input type="text" name="nome" id="nome" class="inputUser" required>            
-            <label for="nome" class="labelInput">Nome no Cartão de crédito</label>
-          </div>
-          <br><br>
           <div class="button">
-          <button id="button">Confirmar</button>
+            <button type="submit" class="button" id="button">Confirmar</button>
+            <br><br>
+            <button class="button" id="return" onClick="window.location.reload()"> Retornar</button>
           </div>
         </fieldset>
       </form>

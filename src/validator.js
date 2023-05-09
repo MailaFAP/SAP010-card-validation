@@ -30,6 +30,7 @@ const validator = {
       }
       //somar os elementos e atribuir á variavel soma 
       sum = sum + otherArray[i];
+      
     }
     if (sum % 10 === 0) {
       //se o resultado da soma %10 for ===0, retornar verdadeiro para a função isValid, se não, retornar falso
