@@ -14,7 +14,7 @@ const validator = {
     let sum = 0;
     //percorrer o array elemento por elemento : declara o index=0 , dá condição de se i é menor que o tamanho da array newNumber, e mostra qual o incremento, que será adicionar a posição o valor do index
     for (let i = 0; i < newNumber.length; i++) {
-      //se o resto da divisão de i por 2 for 0, multiplicar o valor por 2    
+      //se o resto da divisão de i por 2 for diferente de 0, multiplicar o valor por 2    
       if (i % 2 !== 0) {
         otherArray[i] = newNumber[i] * 2;
         //se o valor de i for maior que 9, somar os digitos

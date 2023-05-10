@@ -15,9 +15,13 @@ function validar(event) {
 
 document.getElementById("numberCard").addEventListener("keyup", mascarar);
 function mascarar(event) {
-  event.preventDefault();
   const letra = event.key;
-  document.getElementById("hidden").value = document.getElementById("hidden").value + letra;
-  document.getElementById("numberCard").value = validator.maskify(document.getElementById("numberCard").value);
+  if (isNaN(parseInt(letra))) {
+    document.getElementById("numberCard").value = document.getElementById("numberCard").value.substring(0, document.getElementById("numberCard").value.length - 1);
+  } else {
+    document.getElementById("hidden").value = document.getElementById("hidden").value + letra;
+    document.getElementById("numberCard").value = validator.maskify(document.getElementById("numberCard").value);
+  }
+  
 }
 
